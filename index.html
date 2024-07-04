@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <style>
+        body {
+            background-image: linear-gradient(to left, rgb(27, 231, 235), rgb(120, 89, 152));
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 650px;
+            margin: auto;
+            justify-content: center;
+            margin-top: 83px;
+            border: 3px solid;
+            min-height: 400px;
+            align-items: center;
+            border-radius: 18px;
+            background-color: white;
+            background: url(./bgc\ img.jpg) center center/cover;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 15px;
+            font-size: 30px;
+            color: white;
+
+
+        }
+        .box h1{
+            font-size: xx-large;
+            color: rgb(251, 255, 255);
+        }
+
+        .btn {
+            transition: all 0.2s ease-in-out;
+            border: 2px solid;
+            border-radius: 15px;
+            min-width: 250px;
+            padding: 10px;
+            background-color: rgb(114, 123, 123);
+            color: white;
+            font-size: x-large;
+
+
+        }
+
+        .btn:hover {
+            /* background-color: rgb(91, 171, 171); */
+            cursor: pointer;
+           box-shadow:  -8px -8px  rgb(53, 216, 222), 8px 8px   rgb(95, 124, 205);
+            /* transform: rotate(-25deg); */
+
+
+
+        }
+
+        
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Quiz Game </h1>
+
+            <button class="btn">start game</button>
+        </div>
+    </div>
+    <script src="./script.js">
+    </script>
+</body>
+
+</html>
